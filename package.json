@@ -8,7 +8,12 @@
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build"
   },
-  "keywords": ["React", "StoryBook", "Component", "Library"],
+  "keywords": [
+    "React",
+    "StoryBook",
+    "Component",
+    "Library"
+  ],
   "author": "Milad Sadeghi DM",
   "license": "MIT",
   "devDependencies": {
@@ -16,6 +21,7 @@
     "@storybook/addon-interactions": "^7.5.0",
     "@storybook/addon-links": "^7.5.0",
     "@storybook/addon-onboarding": "^1.0.8",
+    "@storybook/addon-themes": "^7.5.0",
     "@storybook/blocks": "^7.5.0",
     "@storybook/react": "^7.5.0",
     "@storybook/react-vite": "^7.5.0",
