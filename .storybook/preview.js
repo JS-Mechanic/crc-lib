@@ -1,3 +1,6 @@
+import { withThemeFromJSXProvider } from "@storybook/addon-themes";
+import { createGlobalStyle } from "styled-components";
+
 /** @type { import('@storybook/react').Preview } */
 const preview = {
   parameters: {
