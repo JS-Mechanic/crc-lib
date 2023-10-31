@@ -1,6 +1,6 @@
 {
   "name": "crclib",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Custom React Component Library Powered by StoryBook",
   "main": "index.js",
   "scripts": {
@@ -14,7 +14,7 @@
     "Component",
     "Library"
   ],
-  "author": "Milad Sadeghi DM",
+  "author": "js-mechanic",
   "license": "MIT",
   "devDependencies": {
     "@storybook/addon-essentials": "^7.5.0",
