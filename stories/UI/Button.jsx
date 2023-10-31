@@ -71,6 +71,8 @@ export const Button = ({
   );
 };
 
+export default Button;
+
 Button.propTypes = {
   variation: PropTypes.string,
   size: PropTypes.string,
