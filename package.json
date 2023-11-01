@@ -1,6 +1,6 @@
 {
   "name": "@js-mechanic/crc-lib",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Custom React Component Library Powered by StoryBook",
   "main": "stories/index.js",
   "scripts": {
@@ -49,5 +49,6 @@
     "access": "public"
   },
   "readme": "ERROR: No README data found!",
-  "_id": "@js-mechanic/crc-lib@0.0.5"
+  "_id": "@js-mechanic/crc-lib@0.0.5",
+  "type": "module"
 }
