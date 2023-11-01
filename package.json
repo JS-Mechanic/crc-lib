@@ -2,12 +2,13 @@
   "name": "@js-mechanic/crc-lib",
   "version": "0.0.6",
   "description": "Custom React Component Library Powered by StoryBook",
-  "main": "index.js",
+  "main": "stories/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "chromatic": "npx chromatic --project-token=chpt_9c9ebed9b7f3985"
+    "chromatic": "npx chromatic --project-token=chpt_9c9ebed9b7f3985",
+    "rollup": "rollup -c"
   },
   "keywords": [
     "React",
@@ -16,10 +17,13 @@
     "Library"
   ],
   "author": {
-    "name": "js-mechanic"
+    "name": "Milad Sadeghi DM"
   },
   "license": "MIT",
   "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-typescript": "^11.1.5",
     "@storybook/addon-essentials": "^7.5.0",
     "@storybook/addon-interactions": "^7.5.0",
     "@storybook/addon-links": "^7.5.0",
@@ -34,6 +38,8 @@
     "prop-types": "^15.8.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "rollup": "^4.2.0",
+    "rollup-plugin-dts": "^6.1.0",
     "storybook": "^7.5.0"
   },
   "dependencies": {
